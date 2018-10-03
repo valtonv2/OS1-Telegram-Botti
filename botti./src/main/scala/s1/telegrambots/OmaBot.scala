@@ -30,6 +30,21 @@ object omaStart extends App {
         userString + " Meow."
      }
 
+
+     def coinFlip:String = {
+
+        val randomFinder = scala.util.Random
+        val chooser = randomFinder.nextInt(2)
+
+            if (chooser == 1){
+
+                      "Heads"
+            } else {
+
+                      "Tails"
+                    }
+     }
+
      /**
       * Kääntää sanan toisin päin
       */
