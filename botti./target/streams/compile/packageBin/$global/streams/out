@@ -1,0 +1,31 @@
+[0m[[0m[0minfo[0m] [0m[0mPackaging /Users/valtteri/Desktop/botti./target/scala-2.12/telegrambottest_2.12-0.1.jar ...[0m
+[0m[[0m[0mdebug[0m] [0m[0mInput file mappings:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	s1/telegrambots/package$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/valtteri/Desktop/botti./target/scala-2.12/classes/s1/telegrambots/package$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	s1[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/valtteri/Desktop/botti./target/scala-2.12/classes/s1[0m
+[0m[[0m[0mdebug[0m] [0m[0m	s1/telegrambots/BasicBot.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/valtteri/Desktop/botti./target/scala-2.12/classes/s1/telegrambots/BasicBot.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	s1/telegrambots/startOwnBot$delayedInit$body.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/valtteri/Desktop/botti./target/scala-2.12/classes/s1/telegrambots/startOwnBot$delayedInit$body.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	s1/telegrambots/Example$$anon$1.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/valtteri/Desktop/botti./target/scala-2.12/classes/s1/telegrambots/Example$$anon$1.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	s1/telegrambots/ImageHandling.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/valtteri/Desktop/botti./target/scala-2.12/classes/s1/telegrambots/ImageHandling.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	s1/telegrambots[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/valtteri/Desktop/botti./target/scala-2.12/classes/s1/telegrambots[0m
+[0m[[0m[0mdebug[0m] [0m[0m	s1/telegrambots/startOwnBot$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/valtteri/Desktop/botti./target/scala-2.12/classes/s1/telegrambots/startOwnBot$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	s1/telegrambots/Example.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/valtteri/Desktop/botti./target/scala-2.12/classes/s1/telegrambots/Example.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	s1/telegrambots/package.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/valtteri/Desktop/botti./target/scala-2.12/classes/s1/telegrambots/package.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	s1/telegrambots/startOwnBot$$anon$1.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/valtteri/Desktop/botti./target/scala-2.12/classes/s1/telegrambots/startOwnBot$$anon$1.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	s1/telegrambots/Example$delayedInit$body.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/valtteri/Desktop/botti./target/scala-2.12/classes/s1/telegrambots/Example$delayedInit$body.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	s1/telegrambots/startOwnBot.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/valtteri/Desktop/botti./target/scala-2.12/classes/s1/telegrambots/startOwnBot.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	s1/telegrambots/Example$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/valtteri/Desktop/botti./target/scala-2.12/classes/s1/telegrambots/Example$.class[0m
+[0m[[0m[0minfo[0m] [0m[0mDone packaging.[0m
