@@ -5,7 +5,6 @@ import api._
 import methods.{SendMessage, _}
 import models.{InlineKeyboardButton, InlineKeyboardMarkup, _}
 import declarative._
-import scala.util.Random
 
 /**
  * Ärsyttävä Botti joka kääntää sanat nurinpäin ja muistelee menneitä
@@ -20,33 +19,11 @@ import scala.util.Random
  * syötteekseen jokaisen kanavalle kirjoitetun merkkijonon. Se, mitä funktio
  * palauttaa lähetetään kanavalle.
  */
-object startOwnBot extends App {
-
- 
+object omaStart extends App {
 
    val bot =  new BasicBot() {
 
-
-    def catify(userString:String) = {
-        
-        
-        userString + " Meow."
-   }
-
    
-        }
-def coinFlip:String = {
-
-    val randomFinder = scala.util.Random
-    val chooser = randomFinder.nextInt(2)
-
-        if (chooser == 1){
-
-          "Heads"
-        } else {
-
-          "Tails"
-      }
 
 
      /**
@@ -59,6 +36,7 @@ def coinFlip:String = {
       * kanavalle kirjoitetaan jotain.
       */
      this.replyToString(nurinpain)
+     
 
 
      /**
@@ -94,14 +72,12 @@ def coinFlip:String = {
       */
      this.command("remember", muista)
 
-     // Kolikon heiton kutsuminen
-
-     this.command("flip", this.coinFlip)
-
 
      def kerro(msg: Message) = {
        "Moi " + getUserFirstName(msg) + " sehän oli " + edellinen
      }
+
+   
 
      this.command("recall", kerro)
 
@@ -110,6 +86,9 @@ def coinFlip:String = {
 
      println("Started")
    }
+
+
+
 
 
 
