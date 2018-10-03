@@ -24,7 +24,11 @@ object omaStart extends App {
    val bot =  new BasicBot() {
 
    
-
+    def catify(userString:String) = {
+        
+        
+        userString + " Meow."
+     }
 
      /**
       * Kääntää sanan toisin päin
