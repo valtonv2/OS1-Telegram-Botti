@@ -32,7 +32,7 @@ object omaStart extends App {
      }
 
 
-     def coinFlip(msg:Message):String = {
+     def coinFlip:String = {
 
         
         val chooser = Random.nextInt(2)
@@ -86,7 +86,7 @@ object omaStart extends App {
      /**
       * Metodilla command voidaan oma metodimme asettaa ajettavaksi vain tietyn komennon yhteydessä.
       */
-     this.command("remember", muista)
+     command("remember", muista)
 
 
      def kerro(msg: Message) = {
@@ -95,9 +95,9 @@ object omaStart extends App {
 
    
 
-     this.command("recall", kerro)
+     command("recall", kerro)
 
-     this.commmand("flip", coinFlip)
+     command("flip", coinFlip)
 
      // Lopuksi Botti pitää vielä saada käyntiin
      this.run()
