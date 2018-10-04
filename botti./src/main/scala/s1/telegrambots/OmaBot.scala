@@ -6,6 +6,9 @@ import methods.{SendMessage, _}
 import models.{InlineKeyboardButton, InlineKeyboardMarkup, _}
 import declarative._
 import scala.util.Random
+import scala.io.Source
+
+
 
 /**
  * Ärsyttävä Botti joka kääntää sanat nurinpäin ja muistelee menneitä
@@ -23,6 +26,8 @@ import scala.util.Random
 object omaStart extends App {
 
    val bot =  new BasicBot() {
+     
+     
 
    
     def catify(userString:String) = {
@@ -47,6 +52,8 @@ object omaStart extends App {
         else if(chooser == 4) "Mew."
         else "Mou!"
      }
+     
+     
 
 
      def coinFlip(msg:Message) = {
@@ -113,6 +120,16 @@ object omaStart extends App {
        "Moi " + getUserFirstName(msg) + " sehän oli " + edellinen
      }
 
+     
+     def kisu(msg:Message) = {
+       
+      
+       
+     }
+       
+       
+     
+     
    
 
      command("recall", kerro)
