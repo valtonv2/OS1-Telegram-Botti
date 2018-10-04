@@ -46,7 +46,7 @@ object omaStart extends App {
         else if(chooser == 3) "Purr."
         else if(chooser == 4) "Mew."
         else "Mou!"
-      }
+     }
 
 
      def coinFlip(msg:Message) = {
