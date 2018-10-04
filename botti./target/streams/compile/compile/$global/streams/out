@@ -1,50 +1,9 @@
-[0m[[0m[31merror[0m] [0m[0m/Users/valtteri/Desktop/botti./src/main/scala/s1/telegrambots/OmaBot.scala:61:11: value replyToString is not a member of object s1.telegrambots.startOwnBot[0m
-[0m[[0m[31merror[0m] [0m[0m     this.replyToString(nurinpain)[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/valtteri/Documents/GitHub/OS1-Telegram-Botti/botti./src/main/scala/s1/telegrambots/OmaBot.scala:100:11: value commmand is not a member of s1.telegrambots.BasicBot{def catify(userString: String): String; def coinFlip(msg: this.Message): String; def nurinpain(s: String): String; def tervehdi(kayttaja: info.mukel.telegrambot4s.models.User): String; def edellinen: String; def edellinen_=(x$1: String): Unit; def muista(msg: this.Message): String; def kerro(msg: this.Message): String}[0m
+[0m[[0m[31merror[0m] [0m[0m     this.commmand("flip", coinFlip)[0m
 [0m[[0m[31merror[0m] [0m[0m          ^[0m
-[0m[[0m[31merror[0m] [0m[0m/Users/valtteri/Desktop/botti./src/main/scala/s1/telegrambots/OmaBot.scala:61:25: missing argument list for method nurinpain[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/valtteri/Documents/GitHub/OS1-Telegram-Botti/botti./src/main/scala/s1/telegrambots/OmaBot.scala:100:28: missing argument list for method coinFlip[0m
 [0m[[0m[31merror[0m] [0m[0mUnapplied methods are only converted to functions when a function type is expected.[0m
-[0m[[0m[31merror[0m] [0m[0mYou can make this conversion explicit by writing `nurinpain _` or `nurinpain(_)` instead of `nurinpain`.[0m
-[0m[[0m[31merror[0m] [0m[0m     this.replyToString(nurinpain)[0m
-[0m[[0m[31merror[0m] [0m[0m                        ^[0m
-[0m[[0m[31merror[0m] [0m[0m/Users/valtteri/Desktop/botti./src/main/scala/s1/telegrambots/OmaBot.scala:73:11: value joinMessage is not a member of object s1.telegrambots.startOwnBot[0m
-[0m[[0m[31merror[0m] [0m[0m     this.joinMessage(tervehdi)[0m
-[0m[[0m[31merror[0m] [0m[0m          ^[0m
-[0m[[0m[31merror[0m] [0m[0m/Users/valtteri/Desktop/botti./src/main/scala/s1/telegrambots/OmaBot.scala:73:23: missing argument list for method tervehdi[0m
-[0m[[0m[31merror[0m] [0m[0mUnapplied methods are only converted to functions when a function type is expected.[0m
-[0m[[0m[31merror[0m] [0m[0mYou can make this conversion explicit by writing `tervehdi _` or `tervehdi(_)` instead of `tervehdi`.[0m
-[0m[[0m[31merror[0m] [0m[0m     this.joinMessage(tervehdi)[0m
-[0m[[0m[31merror[0m] [0m[0m                      ^[0m
-[0m[[0m[31merror[0m] [0m[0m/Users/valtteri/Desktop/botti./src/main/scala/s1/telegrambots/OmaBot.scala:88:21: not found: value getString[0m
-[0m[[0m[31merror[0m] [0m[0m        edellinen = getString(msg)[0m
-[0m[[0m[31merror[0m] [0m[0m                    ^[0m
-[0m[[0m[31merror[0m] [0m[0m/Users/valtteri/Desktop/botti./src/main/scala/s1/telegrambots/OmaBot.scala:95:11: value command is not a member of object s1.telegrambots.startOwnBot[0m
-[0m[[0m[31merror[0m] [0m[0m     this.command("remember", muista)[0m
-[0m[[0m[31merror[0m] [0m[0m          ^[0m
-[0m[[0m[31merror[0m] [0m[0m/Users/valtteri/Desktop/botti./src/main/scala/s1/telegrambots/OmaBot.scala:95:31: missing argument list for method muista[0m
-[0m[[0m[31merror[0m] [0m[0mUnapplied methods are only converted to functions when a function type is expected.[0m
-[0m[[0m[31merror[0m] [0m[0mYou can make this conversion explicit by writing `muista _` or `muista(_)` instead of `muista`.[0m
-[0m[[0m[31merror[0m] [0m[0m     this.command("remember", muista)[0m
-[0m[[0m[31merror[0m] [0m[0m                              ^[0m
-[0m[[0m[31merror[0m] [0m[0m/Users/valtteri/Desktop/botti./src/main/scala/s1/telegrambots/OmaBot.scala:99:11: value command is not a member of object s1.telegrambots.startOwnBot[0m
-[0m[[0m[31merror[0m] [0m[0m     this.command("flip", this.coinFlip)[0m
-[0m[[0m[31merror[0m] [0m[0m          ^[0m
-[0m[[0m[31merror[0m] [0m[0m/Users/valtteri/Desktop/botti./src/main/scala/s1/telegrambots/OmaBot.scala:103:17: not found: value getUserFirstName[0m
-[0m[[0m[31merror[0m] [0m[0m       "Moi " + getUserFirstName(msg) + " sehän oli " + edellinen[0m
-[0m[[0m[31merror[0m] [0m[0m                ^[0m
-[0m[[0m[31merror[0m] [0m[0m/Users/valtteri/Desktop/botti./src/main/scala/s1/telegrambots/OmaBot.scala:106:11: value command is not a member of object s1.telegrambots.startOwnBot[0m
-[0m[[0m[31merror[0m] [0m[0m     this.command("recall", kerro)[0m
-[0m[[0m[31merror[0m] [0m[0m          ^[0m
-[0m[[0m[31merror[0m] [0m[0m/Users/valtteri/Desktop/botti./src/main/scala/s1/telegrambots/OmaBot.scala:106:29: missing argument list for method kerro[0m
-[0m[[0m[31merror[0m] [0m[0mUnapplied methods are only converted to functions when a function type is expected.[0m
-[0m[[0m[31merror[0m] [0m[0mYou can make this conversion explicit by writing `kerro _` or `kerro(_)` instead of `kerro`.[0m
-[0m[[0m[31merror[0m] [0m[0m     this.command("recall", kerro)[0m
-[0m[[0m[31merror[0m] [0m[0m                            ^[0m
-[0m[[0m[31merror[0m] [0m[0m/Users/valtteri/Desktop/botti./src/main/scala/s1/telegrambots/OmaBot.scala:109:11: value run is not a member of object s1.telegrambots.startOwnBot[0m
-[0m[[0m[31merror[0m] [0m[0m     this.run()[0m
-[0m[[0m[31merror[0m] [0m[0m          ^[0m
-[0m[[0m[31merror[0m] [0m[0m/Users/valtteri/Desktop/botti./src/main/scala/s1/telegrambots/OmaBot.scala:111:13: type mismatch;[0m
-[0m[[0m[31merror[0m] [0m[0m found   : Unit[0m
-[0m[[0m[31merror[0m] [0m[0m required: String[0m
-[0m[[0m[31merror[0m] [0m[0m     println("Started")[0m
-[0m[[0m[31merror[0m] [0m[0m            ^[0m
-[0m[[0m[31merror[0m] [0m[0m13 errors found[0m
+[0m[[0m[31merror[0m] [0m[0mYou can make this conversion explicit by writing `coinFlip _` or `coinFlip(_)` instead of `coinFlip`.[0m
+[0m[[0m[31merror[0m] [0m[0m     this.commmand("flip", coinFlip)[0m
+[0m[[0m[31merror[0m] [0m[0m                           ^[0m
+[0m[[0m[31merror[0m] [0m[0mtwo errors found[0m

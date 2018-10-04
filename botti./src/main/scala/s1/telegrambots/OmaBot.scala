@@ -5,6 +5,7 @@ import api._
 import methods.{SendMessage, _}
 import models.{InlineKeyboardButton, InlineKeyboardMarkup, _}
 import declarative._
+import scala.util.Random
 
 /**
  * Ärsyttävä Botti joka kääntää sanat nurinpäin ja muistelee menneitä
@@ -31,18 +32,14 @@ object omaStart extends App {
      }
 
 
-     def coinFlip:String = {
+     def coinFlip(msg:Message):String = {
 
-        val randomFinder = scala.util.Random
-        val chooser = randomFinder.nextInt(2)
+        
+        val chooser = Random.nextInt(2)
 
-            if (chooser == 1){
+            "Hipsutihoi"
 
-                      "Heads"
-            } else {
-
-                      "Tails"
-                    }
+                    
      }
 
      /**
@@ -99,6 +96,8 @@ object omaStart extends App {
    
 
      this.command("recall", kerro)
+
+     this.commmand("flip", coinFlip)
 
      // Lopuksi Botti pitää vielä saada käyntiin
      this.run()
