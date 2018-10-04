@@ -32,12 +32,31 @@ object omaStart extends App {
      }
 
 
-     def coinFlip:String = {
+     
+     def catPet(msg:Message):String = {
+
+      val chooser = Random.nextInt(5)
+      val easterEggChooser = Random.nextInt(50)
+
+      if(easterEggChooser == 42) "Hau"
+
+        else if(chooser == 0) "Mau!"
+        else if(chooser == 1) "Miu!"
+        else if(chooser == 2) "Meow!"
+        else if(chooser == 3) "Purr."
+        else if(chooser == 4) "Mew."
+        else "Mou!"
+      }
+
+
+     def coinFlip(msg:Message) = {
 
         
         val chooser = Random.nextInt(2)
 
-            "Hipsutihoi"
+        if (chooser == 1) "Tails"
+
+        else "Heads"
 
                     
      }
@@ -51,7 +70,8 @@ object omaStart extends App {
       * rekisteröi botille uuden toiminnon joka ajetaan aina kun
       * kanavalle kirjoitetaan jotain.
       */
-     this.replyToString(nurinpain)
+
+     //this.replyToString(nurinpain)
      
 
 
@@ -98,6 +118,8 @@ object omaStart extends App {
      command("recall", kerro)
 
      command("flip", coinFlip)
+
+     command("cat", this.catPet)
 
      // Lopuksi Botti pitää vielä saada käyntiin
      this.run()

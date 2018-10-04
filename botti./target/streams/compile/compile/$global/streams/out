@@ -1,7 +1,4 @@
-[0m[[0m[31merror[0m] [0m[0m/Users/valtteri/Documents/GitHub/OS1-Telegram-Botti/botti./src/main/scala/s1/telegrambots/OmaBot.scala:100:22: type mismatch;[0m
-[0m[[0m[31merror[0m] [0m[0m found   : String[0m
-[0m[[0m[31merror[0m] [0m[0m required: this.Message => String[0m
-[0m[[0m[31merror[0m] [0m[0m    (which expands to)  info.mukel.telegrambot4s.models.Message => String[0m
-[0m[[0m[31merror[0m] [0m[0m     command("flip", coinFlip)[0m
-[0m[[0m[31merror[0m] [0m[0m                     ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/valtteri/Documents/GitHub/OS1-Telegram-Botti/botti./src/main/scala/s1/telegrambots/OmaBot.scala:49:7: illegal start of simple expression[0m
+[0m[[0m[31merror[0m] [0m[0m      }[0m
+[0m[[0m[31merror[0m] [0m[0m      ^[0m
 [0m[[0m[31merror[0m] [0m[0mone error found[0m
